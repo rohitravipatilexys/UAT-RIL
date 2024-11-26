@@ -1,0 +1,93 @@
+{
+  "name": "RIL",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@azure/msal-browser": "^2.27.0",
+    "@azure/msal-react": "^1.4.3",
+    "@craco/craco": "^6.4.3",
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@fontsource/source-sans-pro": "^4.5.11",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@strapi/icons": "^1.2.0",
+    "antd": "^4.18.2",
+    "buffer": "^6.0.3",
+    "classnames": "^2.3.1",
+    "craco-less": "^2.0.0",
+    "history": "^5.2.0",
+    "html5-qrcode": "^2.3.7",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "pdf-actions": "^1.0.8",
+    "pdf-merger-js": "^3.4.0",
+    "pdf-viewer-reactjs": "^2.2.3",
+    "pdfjs-dist": "2.10.377",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-cam": "^1.1.11",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.5",
+    "react-fast-marquee": "^1.6.5",
+    "react-file-view": "^1.0.0",
+    "react-file-viewer": "0.5.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-heart-checkbox": "^0.0.4",
+    "react-icons": "^4.4.0",
+    "react-otp-input": "^2.4.0",
+    "react-pdf": "^5.7.2",
+    "react-player": "^2.16.0",
+    "react-qr-barcode-scanner": "^1.0.6",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-qr-scanner": "1.0.0-alpha.7",
+    "react-quill": "^2.0.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-scroll-motion": "^0.3.3",
+    "react-search-autocomplete": "^7.2.2",
+    "resolve-url-loader": "^5.0.0",
+    "semantic-ui-react": "^2.1.3",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md,json}\" --config ./.prettierrc.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "main": "index.js",
+  "repository": "https://lexystech@dev.azure.com/lexystech/Note%20for%20Approval/_git/FE-Noteforapproval",
+  "author": "basilmaben <basilmaben.bm@gmail.com>",
+  "license": "MIT"
+}
